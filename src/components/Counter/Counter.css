@@ -1,0 +1,34 @@
+.counter-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 280px;
+    text-align: center;
+    margin-left: 20px;
+}
+.counter-block .display {
+    width: 100%;
+    padding: 30px 20px;
+    background: #fff;
+    text-align: center;
+    font-size: 70px;
+    border-radius: 12px;
+    margin-bottom: 8px;
+}
+.counter-block .display.text p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 94px;
+    font-size: 30px;
+    line-height: 1.2;
+}
+.counter-block .display p {
+    margin: 0;
+}
+.counter-block .display.red {
+    color: red;
+}
+.counter-block button {
+    width: 49%;
+}

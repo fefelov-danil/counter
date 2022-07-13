@@ -1,0 +1,39 @@
+.settings-block {
+    width: 280px;
+    margin-right: 20px;
+}
+.settings-block .max-n-start {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 154px;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 12px;
+    margin-bottom: 8px;
+}
+.max-n-start .value {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.max-n-start .value span {
+    width: calc(100% - 75px);
+    font-size: 25px;
+}
+.max-n-start .value input {
+    height: 35px;
+    width: 70px;
+    background: #dedede;
+    text-align: center;
+    font-size: 22px;
+    border: 0;
+    border-radius: 4px;
+}
+.settings-block button {
+    width: 100%;
+}
+.incorrect-value input {
+    color: red;
+}
